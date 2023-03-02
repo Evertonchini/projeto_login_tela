@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+/*
+    Paletas de cores 
+    black: #102426
+    Lilas: #723873
+
+    Roxo: #380140
+    Preto: #00010D
+    Cinza escuro: #191F40
+    Vinho Escuro: #400101
+*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html, body {
+    background-image: linear-gradient(to bottom ,#380140e1 62% ,#00010d 93%);
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+div {
+    position: absolute;
+    background-image: url('../imagem/tela.jpg');
+    to
+
+}
