@@ -43,7 +43,7 @@ section#login{
     
     background-color: rgba(105, 5, 97, 0.589);
     width: 250px;
-    height: 500px;
+    height: 448px;
     border-radius: 20px;
     box-shadow: 0px 0px 12px #191f40ef;
 
@@ -52,14 +52,15 @@ section#login{
     transition-timing-function: ease;
 }
 
-section#login > div#formulario {
+section#login > div#formul {
     display: block;
     padding: 10px;    
 }
 
-div#formulario > h1{
+div#formul> h1{
     text-align: center;
     margin-bottom: 10px;
+    color: white;
 }
 
 
@@ -80,6 +81,12 @@ section#login > div.home {
 section > h1 {
     text-align: center;
     margin-bottom: 10px;
+}
+
+section > p {
+    color: #cf5dd1;
+    font-size: 1em;
+    margin: 1px 8px -10px;
 }
 
 div.home{
@@ -103,7 +110,7 @@ div.home > label{
 div.home > input {
     background-color: #050000;
     font-size: 1em;
-    width: calc(100% - 67px);
+    width: calc(126% - 69px);
     transform: translateY(-2px);
     height: 90%;
     border-radius: 8px;
@@ -115,6 +122,10 @@ div.home > input:focus-within {
     background-color: white;
 }
 
+form {
+    width: 235px;
+    margin: -4px;
+}
 form > input[type=submit] {
     display: block;
     font-size: 1em;
@@ -133,9 +144,9 @@ form > a.esq {
     text-align: center;
     font-size: 1em;
     width: 100%;
-    height: 40px;
-    padding-top: 5px;
-    margin-top: 5px;
+    height: 30px;
+    padding-top: 4px;
+    margin-top: 2px;
     background-color: #40010177;
     color: rgba(95, 158, 160, 0.548);
     border: 1px solid #40010198;
