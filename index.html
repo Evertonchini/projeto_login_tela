@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilo/home.css" media="all">
+    <link rel="stylesheet" href="estilo/home.css">
     <link rel="stylesheet" href="estilo/mobile-tv.css">
 </head>
 <body>
@@ -26,11 +26,11 @@
                 <div id="formul">
                     <form action="login.php" method="post">
                         <div class="home">
-                            <input type="email" name="e-mail" id="lemail" placeholder="Digite seu e-mail"><label for="lemail">E-mail</label>
+                            <input type="email" name="e-mail" id="lemail" placeholder="Digite seu e-mail" required ><label for="lemail">E-mail</label>
                         </div>
 
                         <div class="home">
-                            <input type="password" name="senha" id="lsenha" placeholder="Digite sua senha"><label for="lsenha">Senha</label>
+                            <input type="password" name="senha" id="lsenha" placeholder="Digite sua senha" required><label for="lsenha">Senha</label>
                         </div>
 
 

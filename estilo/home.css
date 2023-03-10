@@ -15,6 +15,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 
@@ -43,7 +44,7 @@ section#login{
     
     background-color: rgba(105, 5, 97, 0.589);
     width: 250px;
-    height: 448px;
+    height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 12px #191f40ef;
 
@@ -68,7 +69,7 @@ section#login > div#imagem {
     display: block;
     background: url(../imagem/tela.jpg) no-repeat;
     background-size: cover;
-    background-position: left center;
+    background-position: left bottom;
     height: 200px;
 
 }
@@ -96,7 +97,7 @@ div.home{
 form > div.home {
     background-color: #191F40;
     border: 2px solid #191F40;
-    width: 100%;
+    width: 96%;
     display: block;
     height: 40px;
     color: bisque;
@@ -108,10 +109,10 @@ div.home > label{
 }
 
 div.home > input {
-    background-color: #050000;
+    background-color: #dbcccc;
     font-size: 1em;
-    width: calc(126% - 69px);
-    transform: translateY(-2px);
+    width: calc(100% - 44px);
+    transform: translateY(3px);
     height: 90%;
     border-radius: 8px;
     border: 0px;
@@ -123,7 +124,7 @@ div.home > input:focus-within {
 }
 
 form {
-    width: 235px;
+    width: 238px;
     margin: -4px;
 }
 form > input[type=submit] {
